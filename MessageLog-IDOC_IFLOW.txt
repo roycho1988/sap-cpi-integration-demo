@@ -1,0 +1,21 @@
+Message Processing Log:
+  StartTime           = Sun Sep 21 17:37:36.714 UTC 2025
+  StopTime            = Sun Sep 21 17:37:37.170 UTC 2025
+  OverallStatus       = COMPLETED
+  MessageGuid         = AGjQN-Arx1b4JxBHUkVJR2AHkyJE
+  LogLevel            = INFO
+  LogLevelExternal    = NONE
+  ArchivingLogAttachments= false
+  ArchivingPersistedMessages= false
+  ArchivingReceiverChannelMessages= false
+  ArchivingSenderChannelMessages= false
+  ChildCount          = 0
+  ChildrenCounter     = 8
+  ContextName         = IDOC_IFLOW
+  CorrelationId       = AGjQN-AObarlcuU8yEoYqRgTWzy5
+  IntermediateError   = false
+  Node                = 0
+  OriginComponentName = CPI_df4aa418trial
+  PreviousComponentName= CPI_df4aa418trial
+  TransactionId       = 2c5e82156444484cbdce265a81c6347d
+

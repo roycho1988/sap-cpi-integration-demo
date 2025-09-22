@@ -1,0 +1,47 @@
+{
+  "IDOC": {
+    "EDI_DC40": {
+      "TABNAM": "EDI_DC40",
+      "DOCNUM": "0000000000000001",
+      "IDOCTYP": "ORDERS05",
+      "MESTYP": "ORDERS"
+    },
+    "E1EDK01": {
+      "BELNR": "4500001234",
+      "BSART": "NB"
+    },
+    "E1EDKA1": [
+      {
+        "PARVW": "AG",
+        "PARTN": "1000",
+        "NAME1": "TEST SOLD-TO"
+      },
+      {
+        "PARVW": "WE",
+        "PARTN": "2000",
+        "NAME1": "TEST SHIP-TO"
+      }
+    ],
+    "E1EDK14": {
+      "QUALF": "001",
+      "ORGID": "USD"
+    },
+    "E1EDK03": {
+      "IDDAT": "012",
+      "DATUM": "20250919"
+    },
+    "E1EDP01": {
+      "POSEX": "000010",
+      "MENGE": 100,
+      "MENEE": "PC",
+      "NETPR": 100.00,
+      "NETWR": 100.00,
+      "WERKS": "1001",
+      "E1EDP19": {
+        "QUALF": "002",
+        "IDTNR": "TESTMATERIAL01",
+        "MAKTX": "TEST MATERIAL"
+      }
+    }
+  }
+}
