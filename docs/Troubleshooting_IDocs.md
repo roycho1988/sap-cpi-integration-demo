@@ -42,10 +42,13 @@ The goal of this exercise was to generate IDoc-format messages (e.g., `ORDERS05`
   - Delivering processed messages to an external system (tested via webhook site)  
 - Key learning: **Even without direct connectivity**, IDoc-to-CPI integrations can be prototyped and validated with mock payload injection, preparing for real customer landscapes.
 
-
 ---
+## 📘 Lessons Learned
 
-## 📌 Lessons Learned
-- Real SAP S/4HANA → CPI integration requires **complete partner profile and port configuration** in the source system.  
-- Mock payloads are useful for testing CPI mappings when on-premise connectivity isn’t available.  
-- Next step: connect **SAP BTP trial CPI tenant** with an **on-premise S/4HANA system** to simulate full end-to-end.  
+- **Connectivity setup is critical** — On-premise SAP requires Cloud Connector and proper SSL certificates to integrate with BTP CPI.  
+- **Demo systems have limitations** — Not all partner profiles and RFC/ports are enabled, so full end-to-end may not be possible.  
+- **Workarounds are valuable** — Exporting IDoc payloads and replaying them through CPI still validates transformations and flows.  
+- **CPI skills matter most** — Designing iFlows, configuring adapters (SOAP/HTTP), and using Groovy scripts are the core integration skills.  
+- **Troubleshooting adds credibility** — The detailed investigation (SM59, WE20, SSL configs, Postman tests) demonstrates real-world problem-solving.  
+- **Scalability in mind** — This same setup can later be extended to Azure Data Factory or cloud data lakes for downstream analytics.
+
